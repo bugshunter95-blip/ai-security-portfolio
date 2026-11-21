@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Log files
+*.log
+
+# Leak files
+leak_payload_*.txt
+
+# Findings
+findings_*.json
+findings_*.sarif
+fuzzer_results_*.json
+fuzzer_results_*.sarif
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
